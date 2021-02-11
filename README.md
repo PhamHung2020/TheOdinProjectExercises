@@ -1,0 +1,2 @@
+# TheOdinProjectExercises
+Projects from TheOdinProject
