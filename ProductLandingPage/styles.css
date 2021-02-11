@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: #ffffff;
+    color: #5a5a5a;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.5px;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 180%;
+    margin-bottom: 30px;
+    
+}
+
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.btn{
+    background-color: orange;
+    padding: 15px 30px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    background-color: #da7b3c;
+}
+
+#header{
+    background-attachment: fixed;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.header-bar{
+    top: 0;
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+#header-img{
+    width: 5%;
+    float: left;
+}
+
+#header .logo{
+    font-size: 175%;
+    text-decoration: none;
+    font-weight: bolder;
+    vertical-align:text-top;
+    color:green;
+    display: inline;
+}
+
+#header .logo h1{
+    display: inline;
+}
+
+#header #nav-bar {
+    float: right;
+    margin-top: 30px;
+    margin-right: 70px;
+}
+
+#header #nav-bar a{
+    text-decoration: none;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+#header .submit-email{
+    margin-top: 100px;
+    color: black;
+    text-align: center;
+}
+
+#header .submit-email input[type=email]{
+    display: block;
+    width: 30%;
+    /* height: 30px; */
+    padding: 3px;
+    font-size: 20px;
+    margin: 10px 35%;
+}
+
+
+.features-section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.feature-box{
+    background-color:cyan;
+    margin: 0px 25% 30px 25%;
+    color: black;
+    width: 50%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px solid #c4dbf1;
+    box-shadow: 0px 10px 15px 5px #265077;
+}
+
+.how-it-works-section{
+    background-color: #f4f4f4;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.how-it-works-section iframe{
+    display: block;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.pricing-section{
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.product{
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.product-box{
+    background-color: #eeefff;
+    width: 28%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #e0e0e0;
+}
+
+.product-type{
+    color: black;
+    background-color: chartreuse;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-price{
+    color: #265077;
+    font-weight: 500;
+    font-size: 200%;
+    margin-top: 10px;
+}
+
+.product-box ul li{
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-section .btn{
+    text-decoration: none;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+footer{
+    background-color:  #363333;
+    padding: 20px;
+    color: white
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 780px){
+    #header #nav-bar {
+        margin-top: 30px;
+        margin-right: 40px;
+    }
+    
+    #header #nav-bar a{
+        text-decoration: none;
+        margin-right: 20px;
+        display: inline-block;
+        font-size: 75%;
+    }
+}
